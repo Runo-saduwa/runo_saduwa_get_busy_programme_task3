@@ -1,3 +1,7 @@
-body {
-    background:red;
+.post-container {
+    min-height: 80vh;
+}
+
+.footer-text {
+    color: #fff !important;
 }
