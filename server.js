@@ -1,6 +1,7 @@
 const path = require('path');
 const hbs = require('hbs');
 const express = require('express');
+const chalk = require('chalk');
 const app = express();
 
 // ===== DEFINE PATHS FOR VIEWS ===== //
@@ -37,5 +38,5 @@ app.use(require('./app/routes'));
 const PORT = 3000;
 
 app.listen(PORT, () => {
-	console.log('server is up');
+	console.log(chalk.inverse.green(`SERVER IS UP AT PORT ${PORT}`));
 });
