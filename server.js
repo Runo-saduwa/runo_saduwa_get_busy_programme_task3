@@ -35,7 +35,7 @@ app.use(express.static(publicDirectoryPath));
 // ==== require all routes from routes.js ==== //
 app.use(require('./app/routes'));
 
-const PORT = 3000;
+const PORT = 8000;
 
 app.listen(PORT, () => {
 	console.log(chalk.inverse.green(`SERVER IS UP AT PORT ${PORT}`));
