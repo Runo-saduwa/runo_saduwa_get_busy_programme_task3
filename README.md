@@ -1,4 +1,4 @@
-# Node.js Africa Get Busy Programme Task 4
+# Node.js Africa Get Busy Programme Task 3
 ## Get Started
 * Clone repository, go to terminal and paste the following:
 ```
