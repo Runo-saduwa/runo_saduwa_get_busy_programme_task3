@@ -8,5 +8,5 @@ npm install
 //to start the server
 npm start
 ```
-* Go to [localhost:3000](http://localhost:3000)
+* Go to [localhost:3000](http://localhost:8000)
 
